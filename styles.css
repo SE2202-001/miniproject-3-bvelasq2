@@ -1,0 +1,121 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the page */
+    background-color: #f0f4f8; /* Light grayish background color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    flex-direction: column; /* Arranges content in a column */
+  }
+  
+  /* Container styles for the main content */
+  .container {
+    width: 80%; /* Sets the width to 80% of the viewport */
+    max-width: 1000px; /* Maximum width for larger screens */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    padding: 20px; /* Adds padding inside the container */
+  }
+  
+  /* Header styles */
+  h1, h2 {
+    text-align: center; /* Centers the text */
+    color: #333; /* Dark gray color */
+  }
+  
+  /* Styling for different sections */
+  .upload-section, #filters, #sorting, #jobListings {
+    margin-bottom: 20px; /* Adds space below each section */
+  }
+  
+  /* Container for dropdowns */
+  .dropdown-container {
+    margin-bottom: 10px; /* Space below the container */
+    display: flex; /* Enables flex layout */
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center; /* Aligns items vertically */
+    gap: 10px; /* Adds spacing between items */
+  }
+  
+  /* Styling for labels */
+  label {
+    font-weight: bold; /* Makes the label text bold */
+    min-width: 80px; /* Ensures consistent label width */
+  }
+  
+  /* Styling for dropdown menus */
+  select {
+    flex: 1; /* Allows dropdown to expand */
+    padding: 8px 12px; /* Adds padding inside the dropdown */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    outline: none; /* Removes the default focus outline */
+    font-size: 16px; /* Sets the font size */
+  }
+  
+  /* Hover effect for dropdowns and buttons */
+  select:hover, button:hover {
+    border-color: #007BFF; /* Changes border color on hover */
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Container for buttons */
+  .button-container {
+    display: flex; /* Enables flex layout */
+    justify-content: center; /* Centers buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  /* Styling for job listing cards */
+  .job {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 10px; /* Adds padding inside the job card */
+    margin: 10px 0; /* Adds space above and below the card */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Styling for job details */
+  .job-details {
+    background-color: #f9f9f9; /* Light gray background */
+    border-top: 1px solid #ddd; /* Adds a border on top */
+    margin-top: 10px; /* Adds space above the details section */
+    padding: 10px; /* Adds padding inside the details section */
+  }
+  
+  /* Styling for job title */
+  .job h3 {
+    margin: 0; /* Removes default margin */
+    font-size: 18px; /* Sets the font size */
+  }
+  
+  /* Content inside job details */
+  #detailsContent {
+    margin-bottom: 10px; /* Adds space below the details content */
+  }
+  
+  /* Styling for the close button */
+  button[onclick="closeDetails()"] {
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Centers the button */
+    background-color: #d9534f; /* Red background color */
+  }
+  
+  /* Hover effect for the close button */
+  button[onclick="closeDetails()"]:hover {
+    background-color: #c9302c; /* Darker red on hover */
+  }
+  
